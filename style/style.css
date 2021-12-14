@@ -5,7 +5,7 @@
   }
   
   body {
-    font: normal 16px/normal 'Rock Salt', sans-serif !important;
+    font: normal 16px/normal 'Encode Sans', sans-serif !important;
     color: #212529;
     background: rgb(241,217,183);
     background: -moz-linear-gradient(344deg, rgba(241,217,183,1) 0%, rgba(235,135,202,1) 42%, rgba(132,239,219,1) 100%);
@@ -15,7 +15,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
   header {
+    font: normal 16px/normal 'Rock Salt', sans-serif;
     display: inline-block;
     width: 100%;
   }
@@ -133,24 +135,24 @@
 
 
   .baking-section {
-    background-image: url('/assets/scene.svg');
+    background-image: url('../assets/scene.svg');
     height: 60rem;
     background-position: 50%;
   }
   .main-banner {
-    background-image: url('/assets/GBSquad_DAO.jpg');
+    background-image: url('../assets/GBSquad_DAO.jpg');
     padding-top: 50px;
     background-position: 5;
   }
   .visit-us-wrap {
-    background-image: url('/assets/GBSquad_DAO.jpg');
+    background-image: url('../assets/GBSquad_DAO.jpg');
     padding: 50px 0;
     background-position: bottom;
     margin-bottom: 0;
   }
 
   .main-banner-story {
-      background-image: url('/assets/scene.svg');
+      background-image: url('../assets/scene.svg');
       padding-top: 50px;
       background-position: top;
       height: 90rem;
@@ -379,8 +381,11 @@
   
 
   @media (max-width: 480px) {
+    .navbar-brand {
+      font-size: 1rem !important;
+    }    
     .banner-content {
-      padding: 0 0 30px;
+      padding: 20px 0 30px;
     }
     .banner-content h6 {
         font-size: 12px;
