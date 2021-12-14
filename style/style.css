@@ -1,0 +1,465 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font: normal 16px/normal 'Rock Salt', sans-serif !important;
+    color: #212529;
+    background: rgb(241,217,183);
+    background: -moz-linear-gradient(344deg, rgba(241,217,183,1) 0%, rgba(235,135,202,1) 42%, rgba(132,239,219,1) 100%);
+    background: -webkit-linear-gradient(344deg, rgba(241,217,183,1) 0%, rgba(235,135,202,1) 42%, rgba(132,239,219,1) 100%);
+    background: linear-gradient(344deg, rgba(241,217,183,1) 0%, rgba(235,135,202,1) 42%, rgba(132,239,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1d9b7",endColorstr="#84efdb",GradientType=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  header {
+    display: inline-block;
+    width: 100%;
+  }
+
+  header > .navbar-light > .navbar-brand {
+    font-weight: 600;
+  }
+
+  footer {
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+  }
+
+  .nav-link {
+    color: #212529;
+    opacity: .5;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .nav-link:hover {
+    opacity: 1;
+  }
+
+  section {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+  }
+  img {
+    max-width: 100%;
+  }
+  a {
+    transition: all .3s ease;
+  }
+  p {
+    margin: 0;
+    line-height: 25px;
+  }
+  .pink-btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 12px 18px;
+    color: #fff !important;
+    background-color: #feb0c6;
+    border: 1px solid transparent;
+  }
+
+  .pink-btn:hover {
+    color: #3e060b !important;
+    background-color: #fff;
+    border: 1px solid #3e060b;
+  }
+  .sign-up-btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 12px 18px;
+    color: #fff !important;
+    background-color: #4af2a1;
+    border: 1px solid transparent;
+  }
+
+  .form-subscribe .btn:hover {
+    color: #3e060b !important;
+    background-color: #fff;
+    border: 1px solid #3e060b;
+  }
+
+
+  .section-title {
+    margin-top: 5px !important;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000;
+    text-align: center;
+  }
+  .inner-title {
+    font-size: 28px;
+    line-height: 30px;
+    color: #3e060b;
+    margin-bottom: 20px;
+  }
+  .title-sm {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #4af2a1;
+    /* font-weight: 600; */
+    font-weight: 700 !important;
+  }
+  .bg-img {
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.bg-img::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    content: '';
+    z-index: -1;
+  }
+
+
+  .baking-section {
+    background-image: url('/assets/scene.svg');
+    height: 60rem;
+    background-position: 50%;
+  }
+  .main-banner {
+    background-image: url('/assets/GBSquad_DAO.jpg');
+    padding-top: 50px;
+    background-position: 5;
+  }
+  .visit-us-wrap {
+    background-image: url('/assets/GBSquad_DAO.jpg');
+    padding: 50px 0;
+    background-position: bottom;
+    margin-bottom: 0;
+  }
+
+  .main-banner-story {
+      background-image: url('/assets/scene.svg');
+      padding-top: 50px;
+      background-position: top;
+      height: 90rem;
+  }
+
+  
+  .logo {
+    max-width: 50px;
+    overflow: hidden;
+  }
+  .banner-content {
+    padding: 40px 0 60px;
+  }
+
+  .banner-content h6 {
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  .banner-content h4 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    padding: 0 15px;
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+
+  .service-card {
+    background: #fff;
+    text-align: center;
+    padding: 25px;
+  }
+
+.service-card i {
+    font-size: 34px;
+    color: #3e060b;
+  }
+  
+.service-card p {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+
+  .f2f2 {
+    background-color: #f2f2f2;
+  }
+  .two-col-content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+.two-col-content p {
+    margin-bottom: 40px;
+  }
+
+
+  .each-question {
+    margin: 16px 0 40px;
+  }
+
+  .each-question p {
+    font-size: 14px;
+    color: #fff;
+  }
+
+.each-question a {
+    color: #3e060b;
+  }
+
+  .txt-bg {
+    position: relative;
+  }
+
+
+  .txt-bg::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 55px;
+    color: #ededed;
+    z-index: -1;
+    content: '01.';
+    opacity: 1;
+  }
+  
+  .each-detail .title-sm {
+    color: #000;
+
+  }
+
+
+  .each-detail span {
+    font-size: 14px;
+  }
+
+
+  /* .blog-detail {
+    padding: 50px 0;
+  }
+  .blog-detail .each-detail {
+    padding: 25px;
+  }
+  .blog-detail .each-detail h6 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .blog-detail .pink-btn {
+    padding: 7px 12px;
+  } */
+
+
+
+
+  .sticky-tag {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+  .sticky-tag :hover {
+      color: #fff !important;
+      background-color: #3e060b;
+      border: 1px solid transparent;
+  }
+
+
+  .footer-title {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+
+  .social-buttons a {
+      color: #212529;
+      opacity: .5;
+      padding-right: 0;
+      padding-left: 0;
+  }
+
+  .social-buttons a:hover {
+    opacity: 1;
+  }
+
+
+  .copyright {
+    color: #212529;
+    opacity: .5;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .quick-links a {
+      color: #212529;
+      opacity: .5;
+      padding-right: 0;
+      padding-left: 0;
+  }
+
+  .quick-links a:hover {
+    opacity: 1;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  @media (max-width: 769px) {
+    section {
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px !important;
+    }
+    .pink-btn {
+      font-size: 12px;
+      padding: 8px;
+      margin: 5px 0;
+      text-align: center;
+    }
+    .banner-content h4 {
+        font-size: 12px;
+        font-size: 40px;
+      }
+    .pr-0 {
+      padding-right: 15px !important;
+    }
+    .pl-0 {
+      padding-left: 15px !important;
+    }
+    .px-0 {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+    }
+    .service-card {
+      padding: 15px 10px;
+    }
+    .section-title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .inner-title {
+      font-size: 22px;
+    }
+    .two-col-content {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    .title-sm {
+      font-size: 14px;
+    }
+    .each-detail span {
+        font-size: 12px;
+      }
+    .each-question {
+      margin: 15px 0 20px;
+    }
+  
+
+  @media (max-width: 480px) {
+    .banner-content {
+      padding: 0 0 30px;
+    }
+    .banner-content h6 {
+        font-size: 12px;
+      }
+    .banner-content h4 {
+        font-size: 30px;
+      }
+    p {
+      font-size: 12px;
+    }
+    .my-5 {
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+    .section-title {
+      font-size: 20px;
+    }
+    .each-detail {
+      margin-bottom: 20px;
+    }
+    .baking-section {
+      padding: 20px 0 !important;
+    }
+    .baking-section .py-5 {
+        padding: 0px !important;
+      }
+    /* .blog-detail .each-detail h6 {
+        font-size: 20px;
+      } */
+  }
+}
+  
+.img-wrap {
+    width: 2rem;
+}
+
+.form-subscribe
+{
+  max-width:600px;
+  margin:0 auto
+}
+.form-subscribe .form-control
+{
+  background-color:hsla(0,0%,100%,.8);
+  padding-left:24px;
+  padding-right:24px;
+  letter-spacing:1px;
+  border:none;
+  border-top-left-radius:36px;
+  border-bottom-left-radius:36px
+}
+.form-subscribe .form-control.focus,.form-subscribe .form-control:focus
+{
+  z-index:2;
+  background-color:hsla(0,0%,100%,.8)
+}
+
+.form-subscribe .btn
+{
+  border-top-right-radius:36px;
+  border-bottom-right-radius:36px;
+  background:#4af2a1;
+  border-color:white;
+  height:46.5px;
+}
+
+.game-img {
+    margin-bottom: 9rem;
+}
+
+#icon-sm {
+    width: 5rem !important;
+    height: 5rem;
+}
+
+.policy-id {
+    font-size: 10px;
+}
+
+img {
+    max-width: 100%;    
+  }
