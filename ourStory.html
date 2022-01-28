@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style/style.css">
+        <link rel="stylesheet" href="style/style.css">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rock+Salt&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&family=Rock+Salt&display=swap"
             rel="stylesheet">
 
         <!-- Bootstrap CSS -->
@@ -25,7 +25,7 @@
         <!-- header -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-white
-                fixed-top">
+                fixed-top px-1">
                 <a class="navbar-brand" href="index.html">
                     GINGERBREAD REBAKED
                 </a>
@@ -41,31 +41,30 @@
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="nav-link text-capitalize text-dark"
-                                href="index.html">Home
-                                <!-- <span class="sr-only">(current)</span></a> -->
+                                href="index.html">Home</a>
                             </li>
-                            <li class="nav-item disabled">
-                                <a class="nav-link text-capitalize text-dark"
-                                    href="ourgame.html">our Game
-                                    <!-- <span class="sr-only">(current)</span> -->
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link text-capitalize text-dark"
-                                    href="ourStory.html">our Story
-                                    <!-- <span class="sr-only">(current)</span> -->
-                                </a>
-                            </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-capitalize text-dark
+                                disabled"
+                                href="ourgame.html">Game
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-capitalize text-dark"
+                                href="ourStory.html">Story
+                                <span class="sr-only">(current)</span></a>
+                            </a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link pink-btn"
-                                    href="https://cnft.io/marketplace?st=gingerbread">GET
-                                    GINGERS</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+                        <li class="nav-item">
+                            <a class="nav-link pink-btn"
+                                href="https://cnft.io/marketplace?st=gingerbread">GET
+                                GINGERS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
             <section class="main-banner-story bg-img">
                 <div class="container">
@@ -80,7 +79,7 @@
                             continue
                             the project without a centralized power.</p>
                         <a
-                            href="http://127.0.0.1:5500/pages/ourStory.html#target"
+                            href="./ourStory.html#target"
                             class="text-capitalize pink-btn">
                             Check our roadmap! </a>
                     </div>
@@ -99,7 +98,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="image-wrap">
                             <img
-                                src="/assets/Ginger-SKI-GOGGLES--Art-Gallery.jpeg"
+                                src="./assets/Ginger-SKI-GOGGLES--Art-Gallery.jpeg"
                                 alt="cafe-inner">
                         </div>
                     </div>
@@ -123,7 +122,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="image-wrap image-wrap-meme">
                             <img
-                                src="/assets/GingerbreadStickers.jpeg"
+                                src="./assets/GingerbreadStickers.jpeg"
                                 alt="cafe-service">
                         </div>
                     </div>
@@ -247,7 +246,7 @@
                         <p class="text-white ml-5"> we hope you are as exicted
                             as
                             we are.</p>
-                        <img class="roadmap-logo" src="/assets/GBRLogo.svg"
+                        <img class="roadmap-logo" src="./assets/GBRLogo.svg"
                             alt="">
                     </div>
                 </div>
@@ -264,7 +263,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="image-wrap">
                             <img
-                                src="/assets/myZombieLord.svg"
+                                src="./assets/myZombieLord.svg"
                                 alt="cafe-inner">
                         </div>
                     </div>
@@ -306,29 +305,36 @@
 
 
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+        <!-- JQuery, Popper, Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
     </body>
     <!-- footer -->
     <footer>
         <div class="container">
             <div class="row mb-4">
-                <div class="col-md-6 footer-column">
+                <div class="col-md-6 footer-column mt-4">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <p class="footer-title mb-5">Policy IDs</p>
+                            <p class="footer-title mb-3">Policy IDs</p>
                         </li>
+                        <li><p class="footer-title">Gingerbread Squad</p></li>
                         <li class="nav-item">
-                            <span class="policy-id sign-up-btn">ff1463bdfaf9268cafba9918a4b389723a90a21b3a4068d36b2fe405
+                        <li class="nav-item mb-3">
+                            <span class="policy-id">ff1463bdfaf9268cafba9918a4b389723a90a21b3a4068d36b2fe405
+                            </span>
+                        </li>
+                        <li><p class="footer-title mt-2">Gingerbread Squad: Holidazed</p></li>
+                        <li class="nav-item">
+                            <span class="policy-id">874bffc030b6a63e1711903bc47552eb11e55da54a5798a9b22f07c5
                             </span>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 footer-column">
+                <div class="col-md-4 footer-column mt-4">
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <p class="footer-title">Rebaked</p>
@@ -338,27 +344,25 @@
                                 game</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ourStory.html">our
-                                story</a>
+                            <a class="nav-link" href="index.html">home</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 footer-column">
-                    <a href="https://twitter.com/Gingerbreadnft?s=20">
-                        <img src="/assets/ginger_icon_twetter.svg"
-                            id="icon-sm"
-                            alt="Our twitter">
-                    </a>
-                    <a href="https://discord.gg/S7W7cEfa">
-                        <img src="/assets/ginger_icon_discord.svg"
-                            id="icon-sm"
-                            alt="Our discord">
-                    </a>
-
+                <div class="col-md-2 footer-column mt-4">
+                    <div>
+                        <a href="https://twitter.com/Gingerbreadnft?s=20">
+                            <img src="./assets/ginger_icon_twetter.svg" id="icon-sm" alt="Our twitter">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://discord.gg/Uuw4jKgghB">
+                            <img src="./assets/ginger_icon_discord.svg" id="icon-sm" alt="Our discord">
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="row align-items-center">
+            <div class="row align-items-center mt-5">
 
                 <div class="col-md-4 text-left">
                     <ul class="list-inline social-buttons mb-0">
@@ -381,19 +385,19 @@
                 </div>
                 <div class="col-md-4 text-left">
                     <span class="copyright quick-links">Copyright &copy;
-                        rabked.io <script>document.write(new Date().getFullYear())</script>
+                        rebaked.io <script>document.write(new Date().getFullYear())</script>
                     </span>
                 </div>
                 <!-- <div class="col-md-4 text-left">
-                        <ul class="list-inline quick-links mb-0">
-                            <li class="list-inline-item">
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">Terms of Use</a>
-                            </li>
-                        </ul>
-                    </div> -->
+                    <ul class="list-inline quick-links mb-0">
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
             </div>
         </div>
     </footer>
