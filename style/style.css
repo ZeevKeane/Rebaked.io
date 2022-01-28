@@ -462,7 +462,13 @@
 }
 
 .policy-id {
-    font-size: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 6px 6px;
+  color: #000;
+  background-color: #4af2a1;
+  border: 1px solid transparent;
 }
 
 img {
